@@ -2,5 +2,8 @@
     position: absolute;
     right: 0;
 
-    background-color: black;
+    border: solid;
+}
+#menuBtn {
+    display: none;
 }
