@@ -1,9 +1,9 @@
 .Menu {
     position: absolute;
     right: 0;
-
     border: solid;
 }
 #menuBtn {
-    display: none;
+    position: absolute;
+    right: 0;
 }

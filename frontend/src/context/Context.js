@@ -4,12 +4,12 @@ const Context = createContext();
 
 const Provider = ({children}) => {
 
-  const [menu, setmenu] = useState();
+  const [menu, setMenu] = useState(false);
 
   return (
     <Context.Provider value={{
       menu,
-      setmenu
+      setMenu
     }} >
       {children}
     </Context.Provider>
